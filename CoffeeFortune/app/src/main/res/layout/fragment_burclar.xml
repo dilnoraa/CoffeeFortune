@@ -1,0 +1,203 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.myapplication.BurclarFragment"
+    android:background="#fffff8f9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gray_rect"
+                    android:textColor="#ffff598f"
+                  android:drawableRight="@drawable/koc_"
+                    android:id="@+id/koc_burc"
+                    android:paddingTop="20dp"
+                    android:gravity="left"
+                    android:text="  KOÇ"
+                    android:textSize="18dp"
+                    android:width="20dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/boga_burcButton"
+            android:drawableRight="@drawable/boga_"
+            android:textSize="18dp"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  BOĞA"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/ikizler_burcButton"
+            android:drawableRight="@drawable/ikizler_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  İKİZLER"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/yengec_burcButton"
+            android:drawableRight="@drawable/yengec_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  YENGEÇ"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/aslan_burcButton"
+            android:drawableRight="@drawable/leo_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  ASLAN"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/basak_burcButton"
+            android:drawableRight="@drawable/basak_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  BAŞAK"
+            />
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/terazi_burcButton"
+            android:drawableRight="@drawable/terazi_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  TERAZİ"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/akrep_burcButton"
+            android:drawableRight="@drawable/akrep_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  AKREP"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:id="@+id/yay_burcButton"
+            android:drawableRight="@drawable/yay_"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  YAY"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:drawableRight="@drawable/oglak_"
+            android:id="@+id/oglak_burcButton"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  OĞLAK"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:drawableRight="@drawable/kova_"
+            android:id="@+id/kova_burcButton"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  KOVA"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:textColor="#ffff598f"
+            android:drawableRight="@drawable/balik_"
+            android:id="@+id/balik_burcButton"
+            android:paddingTop="20dp"
+            android:gravity="left"
+            android:text="  BALIK"
+            />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

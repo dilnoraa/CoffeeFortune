@@ -1,0 +1,215 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.pc.myapplication.ProfilActivityFragment"
+    android:background="#fffef5ff">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+      android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:text="    ÜYELİĞİN VAR MI? "/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+
+                    android:background="@drawable/girisyap"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+               android:layout_marginLeft="10dp"
+                android:background="@drawable/ad_soyad_text"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/input_boxs"
+                android:layout_height="35dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+
+
+                   android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/telefon_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+
+                    android:text="  3 FAL HEDİYEN YÜKLENDİ  "
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/input_boxs"
+                android:layout_height="35dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/e_posta"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+
+                    android:text="E-Postanı Onaylat, 3 FAL HEDİYE!  "
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/input_boxs"
+                android:layout_height="35dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/cinsiyet_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+
+
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="KADIN"
+                    android:textSize="16dp"
+                    android:background="@drawable/buton_selector"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="ERKEK"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/buton_selector"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/dogumtarihiProfil"
+                android:background="@drawable/dogum_tarihi"/>
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/spinneriliski_durum"
+                android:layout_marginLeft="10dp"
+                android:entries="@array/iliski_durumu"
+                android:background="@drawable/iliski_durumu"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="bottom"
+                android:text="KAYDET"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_selector2"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

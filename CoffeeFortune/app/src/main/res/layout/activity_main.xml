@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buton_tasarim"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ustCubuk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/buton_tasarim"
+            android:drawableLeft="@drawable/back_ikon"
+            android:src="@drawable/first_icon_white" />
+
+        <Button
+            android:id="@+id/user_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+
+            android:background="@drawable/buton_tasarim"
+
+            android:drawableRight="@drawable/user_icon"
+            android:onClick="ChangeFragment" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+    <fragment
+        android:id="@+id/fragment_place_profil"
+        android:name="com.example.pc.myapplication.Fragment_giris"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="bottom"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/image_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@drawable/button_selector2"
+            android:drawableTop="@drawable/first_icon_"
+            android:gravity="bottom"
+            android:onClick="ChangeFragment"
+            android:text=" FALinLOVE \n"
+            android:textColor="#ffff658b"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/image_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector2"
+            android:drawableTop="@drawable/second_icon"
+            android:gravity="bottom"
+            android:onClick="ChangeFragment"
+            android:text=" FALLARIM\n"
+            android:textColor="#ffff658b"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/image_falBaktir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector2"
+            android:drawableTop="@drawable/th_icon"
+            android:gravity="bottom"
+            android:onClick="ChangeFragment"
+            android:text=" FAL BAKTIR\n"
+            android:textColor="#ffff658b"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/image_burclar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector2"
+            android:drawableTop="@drawable/forth_icon"
+            android:gravity="bottom"
+            android:onClick="ChangeFragment"
+            android:src="@drawable/forth_icon"
+            android:text=" Burçlar\n"
+            android:textColor="#ffff658b"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/image_paketler"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector2"
+            android:drawableTop="@drawable/five_icon"
+            android:gravity="bottom"
+            android:onClick="ChangeFragment"
+            android:text=" Paketler\n"
+            android:textColor="#ffff658b"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

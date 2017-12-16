@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FALin LOVE</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fal_gonder">Fal Baktir</string>
+    <string name="title_activity_foto_yukle">Resim Yukle</string>
+    <string name="title_activity_fal_hazir">Fal Hazir</string>
+    <string name="title_activity_gunluk_burc">Gunluk Burc</string>
+
+
+
+    <array name="iliski_durumu">
+
+        <item>Seçiniz</item>
+        <item>İlişkisi var</item>
+        <item>İlişkisi yok</item>
+        <item>Nişanlı</item>
+        <item>Evli</item>
+        <item>Dul</item>
+        <item>Boşanmış</item>
+        <item>Karmaşık bir ilişki</item>
+
+    </array>
+
+
+</resources>

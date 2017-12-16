@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffeff6"
+    tools:context="com.example.pc.myapplication.Fallarim">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gray_rect"
+            android:drawableRight="@drawable/nn"
+            android:gravity="left"
+            android:id="@+id/taslakButton"
+            android:paddingTop="10dp"
+            android:text=" TASLAK"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fallarim_text"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/test_image_"
+            android:background="@drawable/gray_rect"
+            android:text="fal yorumları..."
+            android:drawableRight="@drawable/oku_button__"
+            android:id="@+id/okuButton1"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/test_image_"
+            android:background="@drawable/gray_rect"
+            android:text="fal yorumları..."
+            android:drawableRight="@drawable/oku_button__"
+            android:id="@+id/okuButton2"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/test_image_"
+            android:background="@drawable/gray_rect"
+            android:text="fal yorumları..."
+            android:drawableRight="@drawable/oku_button__"
+            android:id="@+id/okuButton3"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+
+
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

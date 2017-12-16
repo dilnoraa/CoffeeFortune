@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.myapplication.PaketlerFragment"
+    android:background="#fffff5fa">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/fal_paketleri_text"/>
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/teklif_one_red"/>
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/teklif_two_red"/>
+
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/teklif_tree_red"/>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:background="@drawable/davet_et_kazan_text"
+           />
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/teklif_one_green"/>
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/teklif_two_green"/>
+
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="70dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/teklif_tree_green"/>
+
+
+
+
+
+
+
+
+   </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
